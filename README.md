@@ -64,7 +64,7 @@ Use https://www.bls.gov/emp/classifications-crosswalks/nem-onet-to-soc-crosswalk
 
 
 ## License
-This repository is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. To attribute the data, use the citation below.
+This repository is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. To attribute this repository, use the citation below.
 
 
 ## Citation
