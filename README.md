@@ -26,7 +26,7 @@ The SOC-code-level metrics are:
 
 ### Missing data
 O\*NET does not include task data for all occupations. We omit all military occupations (SOC codes 55-xxxx), as they have no task data in O\*NET. We also omit 74 SOC codes mapping to O*NET occupations for which there is no task data.
-This leaves us with 785 SOC codes covering 149.8 million workers according to the 2024 BLS Occupational Employment and Wage Statistics (OEWS) data (total US employment in 2024 OEWS data is 154.2 million).
+This leaves us with 785 SOC codes covering 149.8 million workers according to the 2023 BLS Occupational Employment and Wage Statistics (OEWS) data (total US employment in 2023 OEWS data is 151.9 million).
 
 Additionally, some tasks in O\*NET are missing rating data. See the paper's appendix for details about how we handled missing task rating data in computing IWA weights.
 
