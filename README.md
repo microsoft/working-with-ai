@@ -29,7 +29,9 @@ The SOC-code-level metrics are:
 - `completion_{user,ai}`, `impact_scope_{user,ai}`, `feedback_positive_fraction_{user,ai}`: same as above, aggregated to SOC occupations according to IWA weights
 - `coverage_{user,ai}`: the importance- and relevance-weighted fraction of IWAs in an occupation with activity share at least 0.05% (i.e., share > 0.0005)
 - `ai_applicability_score_user`: AI applicability scores computed only from the user goal metrics
-- `ai_applicability_score_user_ai_nonphysical`: AI applicability scores computed only from the AI action metrics, and using nonphysical tasks only
+- `ai_applicability_score_ai_nonphysical`: AI applicability scores computed only from the AI action metrics, and using nonphysical tasks only
+
+> *Weighting note:* SOC-code-aggregated coverage, completion, impact scope, and positive-feedback fractions use the `soc_iwa_weights.csv` weights on both the user-goal and AI-action sides. Only `ai_applicability_score_ai_nonphysical` and `ai_applicability_score` use `soc_iwa_weights_nonphysical.csv`.
 
 ### Missing data
 O\*NET does not include task data for all occupations. We omit all military occupations (SOC codes 55-xxxx), as they have no task data in O\*NET. We also omit 74 SOC codes mapping to O*NET occupations for which there is no task data.
